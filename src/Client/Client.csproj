@@ -7,7 +7,7 @@
     <UserSecretsId>8f704dba-2fd9-4442-994a-9cf5a28f94d7</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
-	<RootNamespace>Lunas.Client</RootNamespace>
+	<RootNamespace>Luna.Client</RootNamespace>
 	<DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 

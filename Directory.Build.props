@@ -5,12 +5,14 @@
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
 		<EnforeceCodeStyleInBuild>true</EnforeceCodeStyleInBuild>
+		<NoWarn></NoWarn>
+		<MyCustomNoWarnForTests>CA1707;CA1848</MyCustomNoWarnForTests>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference 
-			Include="SonarAnalyzer.CSharp" 
-			Version="9.8.0.76515" 
-			PrivateAssets="all" 
+		<PackageReference
+			Include="SonarAnalyzer.CSharp"
+			Version="9.8.0.76515"
+			PrivateAssets="all"
 			Condition="$(MSBuildProjectExtension) == '.csproj'"
 		/>
 	</ItemGroup>
