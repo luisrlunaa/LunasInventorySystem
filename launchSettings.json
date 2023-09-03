@@ -5,7 +5,7 @@
       "commandVersion": "1.0",
       "serviceActions": {
         "server": "StartDebugging",
-        "client": "StartDebugging"
+        //"client": "StartDebugging"
       }
     }
   }

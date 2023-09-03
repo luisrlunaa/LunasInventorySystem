@@ -5,8 +5,8 @@
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		<CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
 		<EnforeceCodeStyleInBuild>true</EnforeceCodeStyleInBuild>
-		<NoWarn></NoWarn>
-		<MyCustomNoWarnForTests>CA1707;CA1848</MyCustomNoWarnForTests>
+		<NoWarn>CA2007;CA1034;</NoWarn>
+		<MyCustomNoWarnForTests>CA1707;CA1848;</MyCustomNoWarnForTests>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference
