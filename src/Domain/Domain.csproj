@@ -7,8 +7,4 @@
 	<RootNamespace>Luna.Core.Domain</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\SalesSystem\" />
-  </ItemGroup>
-
 </Project>

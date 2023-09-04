@@ -8,11 +8,12 @@ namespace Luna.Server.Controllers
     [Produces("application/json"), Consumes("application/json")]
     public class SecurityController : ControllerBase
     {
-        [HttpPost(LoginEndpoint.Endpoint)]
-        [ProducesResponseType(typeof(LoginEndpointResponse), 200)]
-        public async Task<ActionResult<LoginEndpointResponse>> Login(LoginEndpointRequest loginEndpointRequest)
+        [HttpPost(TokenEndpoint.Endpoint)]
+        [ProducesResponseType(typeof(TokenEndpointResponse), 200)]
+        public async Task<ActionResult<TokenEndpointResponse>> Login(TokenEndpointRequest tokenEndpointRequest)
         {
-            var result = new LoginEndpointResponse("Token", DateTime.Now.AddHours(10), "TokenRefresh");
+            await Task.Delay(200);
+            var result = new TokenEndpointResponse("Token", DateTime.Now.AddHours(10), "TokenRefresh");
             return Ok(result);
         }
     }

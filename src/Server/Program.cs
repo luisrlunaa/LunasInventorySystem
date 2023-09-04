@@ -1,10 +1,15 @@
+using Luna.Core.Application;
+using Luna.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
     .AddControllers(options => options.SuppressImplicitRequiredAttributeForNonNullableReferenceTypes = true);
 
 builder.Services
-    .AddAuthorization();
+    .AddAuthorization()
+    .AddApplication()
+    .AddInfrastructure(builder.Configuration);
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
