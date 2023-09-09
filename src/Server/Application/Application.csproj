@@ -1,16 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+	<TargetFramework>net7.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
 	<RootNamespace>Luna.Server.Application</RootNamespace>
 	<AssemblyName>Luna.Server.Application</AssemblyName>
 </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.csproj" />
-    <ProjectReference Include="..\Domain\Domain.csproj" />
+	<ProjectReference Include="..\Common\Common.csproj" />
+	<ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 	<ItemGroup>
