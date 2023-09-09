@@ -1,6 +1,6 @@
 ﻿using Ardalis.Result;
-using Luna.Core.Domain.Common.Common.Contracts;
 using Luna.Core.Domain.Common.DTOs;
+using Luna.Core.Domain.Common.Interfaces;
 
 namespace Luna.Core.Domain.Common.Services
 {

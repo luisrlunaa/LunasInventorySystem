@@ -7,14 +7,14 @@ services:
       context: .
       dockerfile: src/Server/Dockerfile
 
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:latest
-    healthcheck:
-      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P SalesSystem2023!@#$ -Q 'SELECT 1' || exit 1"]
-      interval: 10s
-      retries: 10
-      start_period: 10s
-      timeout: 3s
+  # sqlserver:
+  #   image: mcr.microsoft.com/mssql/server:latest
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P SalesSystem2023!@#$ -Q 'SELECT 1' || exit 1"]
+  #     interval: 10s
+  #     retries: 10
+  #     start_period: 10s
+  #     timeout: 3s
 
   # client:
   #   image: ${DOCKER_REGISTRY-}client

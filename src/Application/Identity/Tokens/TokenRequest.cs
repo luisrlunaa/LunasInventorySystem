@@ -6,7 +6,7 @@ using Luna.Core.Domain.Common.Services;
 using MediatR;
 using Microsoft.Extensions.Localization;
 
-namespace Luna.Core.Application.Security.Tokens;
+namespace Luna.Core.Application.Identity.Tokens;
 public record TokenRequest(string Email, string Password) : IRequest<Result<TokenResponse>>;
 public record TokenResponse(string Token, DateTime TokenExpiryTime, string RefreshToken, DateTime RefreshTokenExpiryTime);
 

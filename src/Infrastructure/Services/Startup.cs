@@ -1,4 +1,4 @@
-﻿using Luna.Core.Domain.Common.Common.Contracts;
+﻿using Luna.Core.Domain.Common.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Luna.Infrastructure.Services

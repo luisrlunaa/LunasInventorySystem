@@ -14,11 +14,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain.Shared\Domain.Shared.csproj" />
+    <Folder Include="Common\Extensions\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Common\Extensions\" />
+    <ProjectReference Include="..\Domain.Common\Domain.Common.csproj" />
   </ItemGroup>
 
 </Project>
