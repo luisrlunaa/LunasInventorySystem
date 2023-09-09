@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<RootNamespace>Luna.Server.Common</RootNamespace>
+	<AssemblyName>Luna.Server.Common</AssemblyName>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Update="Roslynator.Analyzers" Version="4.5.0">

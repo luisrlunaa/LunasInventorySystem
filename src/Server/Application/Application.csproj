@@ -5,7 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<RootNamespace>Luna.Server.Application</RootNamespace>
-  </PropertyGroup>
+	<AssemblyName>Luna.Server.Application</AssemblyName>
+</PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj" />

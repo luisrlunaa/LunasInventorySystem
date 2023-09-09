@@ -4,7 +4,8 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-	<RootNamespace>Luna.Server</RootNamespace>
+	<RootNamespace>Luna.Server.Host</RootNamespace>
+	<AssemblyName>Luna.Server.Host</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

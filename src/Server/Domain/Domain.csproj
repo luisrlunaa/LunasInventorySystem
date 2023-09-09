@@ -5,7 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<RootNamespace>Luna.Server.Domain</RootNamespace>
-  </PropertyGroup>
+	<AssemblyName>Luna.Server.Domain</AssemblyName>
+</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NewId" Version="4.0.1" />

@@ -5,6 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<RootNamespace>Luna.Contracts</RootNamespace>
+	<AssemblyName>Luna.Contracts</AssemblyName>
   </PropertyGroup>
 
 </Project>
